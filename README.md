@@ -13,7 +13,7 @@ Use it to execute a cammand line.
 #### Arguments:
 * **cmd**: Command line
 * **out_files**: One or a list of file path(s) that are created by the command.
-* **title**:(str, default: None) - A title 
+* **title**:(str, default: None) - A title
 * **log**: (str, default: None) - A path to a log file (text file)
 * **versions**: (dict, default: None) - A dictionnary giving all the versions that must be logged
 * **raise_errors**: (bool, default: True) - Wether to raise python error if the command failed (if True) or just print error in the console and continue (if False)
@@ -24,7 +24,7 @@ Use it to call a python function.
 * **func**: A callable python object (function)
 * **args**: List of the arguments
 * **out_files**: One or a list of file path(s) that are created by the command.
-* **title**:(str, default: None) - A title 
+* **title**:(str, default: None) - A title
 * **log**: (str, default: None) - A path to a log file (text file)
 * **versions**: (dict, default: None) - A dictionnary giving all the versions that must be logged
 * **raise_errors**: (bool, default: True) - Wether to raise python error if the command failed (if True) or just print error in the console and continue (if False)
@@ -52,7 +52,7 @@ Here is an example of simple configuration file:
 
 And then the pipeline:
 ```python
-from micropipe import cached_run, cached_function_call
+from micropype import cached_run, cached_function_call
 
 log = "mylog.txt"
 
